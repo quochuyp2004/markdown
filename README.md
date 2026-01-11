@@ -50,13 +50,6 @@ This project implements the **G-hash** architecture from the paper "G-hash: Educ
 
 ## 📦 Installation
 
-### Prerequisites
-
-- Python 3.9+
-- Git LFS (for downloading dataset)
-- CUDA-capable GPU (optional, can run on CPU/MPS)
-- 10GB+ free disk space
-
 ### Setup
 
 **1. Clone the repository**
@@ -69,20 +62,13 @@ cd G-hash_Educational_Image_Retrieval_System
 **2. Create and activate virtual environment**
 
 ```bash
-# Create virtual environment
-python3 -m venv venv
-
 # Activate on macOS/Linux
 source venv/bin/activate
-
-# Activate on Windows
-venv\Scripts\activate
 ```
 
 **3. Install dependencies**
 
 ```bash
-pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
